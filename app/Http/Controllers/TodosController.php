@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class TodosController extends Controller
+{
+    public function index(){
+        // fetch all todos from database
+        // display them in the todos.index page
+        return view('todos.index');
+    }
+}
