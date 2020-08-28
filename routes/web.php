@@ -28,3 +28,6 @@ Route::post('store-todos', 'TodosController@store');
 /* Edit todo */
 Route::get('todos/{todo}/edit', 'TodosController@edit');
 Route::post('todos/{todo}/update-todos', 'TodosController@update');
+
+/* Delete todo */
+Route::get('todos/{todo}/delete', 'TodosController@destroy');
